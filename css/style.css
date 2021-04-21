@@ -1,0 +1,105 @@
+/*
+*   My Website - Styles
+*
+*/
+
+/***** Header *****/
+
+header {
+    position: sticky;
+
+    left:     0;
+    right:    0;
+    top:      0;
+   
+    z-index:  10;
+}
+
+header a {
+    margin-left: 2%;
+}
+
+header a:link, a:visited {
+    color: grey;
+}
+
+header a:hover, a:active {
+    color: black;
+}
+
+#logo {
+    font-size: 1.5rem;
+}
+
+#hamburger-menu img {
+    height: 0.7rem;
+}
+
+#nav .active {
+    color: black;
+}
+/***** Hero Section *****/
+
+#hero-section {
+    position: relative;
+    height:   50vh;
+
+    background-image:  url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size:   contain;
+}   
+
+#hero-text {
+    position:         relative;
+    background-color: rgb(47, 194, 136);
+    width:            max-content;
+    font-size:        1.25rem;
+    
+    white-space:      nowrap;
+    overflow:         hidden;
+    text-overflow:    ellipsis;
+
+}
+
+/********** Info Section ************/
+
+#info-section {
+    background-color: rgb(34, 34, 34);
+}
+
+#info-section hr {
+    border-color: grey;
+}
+
+#info-section p {
+    word-spacing: 0.5rem;
+    
+}
+
+/********** Footer *************/
+
+#footer {
+
+    background-color: rgb(17, 17, 17);
+}
+
+/******* Media Queries **********/
+
+@media (min-width: 992px) {
+    #hero-section {
+        background-size:     cover;
+        background-position: center;
+    }
+
+    #logo {
+        font-size: 1.9rem;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    #hero-text {
+        font-size: 1.3rem;
+    }
+
+}
