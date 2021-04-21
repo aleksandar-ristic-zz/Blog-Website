@@ -4,14 +4,11 @@
 */
 
 /***** Header *****/
-
 header {
     position: sticky;
-
     left:     0;
     right:    0;
     top:      0;
-   
     z-index:  10;
 }
 
@@ -38,8 +35,8 @@ header a:hover, a:active {
 #nav .active {
     color: black;
 }
-/***** Hero Section *****/
 
+/***** Hero Section *****/
 #hero-section {
     position: relative;
     height:   50vh;
@@ -62,7 +59,6 @@ header a:hover, a:active {
 }
 
 /********** Info Section ************/
-
 #info-section {
     background-color: rgb(34, 34, 34);
 }
@@ -77,17 +73,15 @@ header a:hover, a:active {
 }
 
 /********** Footer *************/
-
 #footer {
 
     background-color: rgb(17, 17, 17);
 }
 
 /******* Media Queries **********/
-
 @media (min-width: 992px) {
     #hero-section {
-        background-size:     cover;
+            background-size: cover;
         background-position: center;
     }
 
@@ -99,7 +93,6 @@ header a:hover, a:active {
 
 @media (min-width: 1200px) {
     #hero-text {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
-
 }
